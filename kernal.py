@@ -15,7 +15,7 @@ y = diabetes.target
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.2, random_state=42
 )
-
+#missed
 # Kernel Ridge Regression with RBF kernel
 model = KernelRidge(kernel="rbf", alpha=1.0, gamma=10)  # adjust gamma for smoothness
 model.fit(X_train, y_train)
